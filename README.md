@@ -6,7 +6,7 @@ int main() {
     srand(time(0));
     number = rand() % 100 +1;
     do{
-        printf("Guess the number between 1 yo 100 \n");
+        printf("Guess the number between 1 to 100 \n");
         scanf("%d",&guess);
         if(guess>number){
             printf("Lower number please! \n");
